@@ -28,6 +28,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'capybara'
   gem 'sqlite3'
   gem 'thin'
   gem 'faker'
