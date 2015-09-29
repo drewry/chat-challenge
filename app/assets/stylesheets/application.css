@@ -10,6 +10,24 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require bootstrap_and_overrides
+ *= require nprogress
+ *= require nprogress-bootstrap
+ *= require sweet-alert
  *= require_tree .
  *= require_self
  */
+
+div.authentication-links {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  margin: 10px 0;
+}
+
+div.auth-box {
+  background: #F8F8F8;
+  border: 1px solid #eee;
+  padding: 15px;
+  width: 500px;
+  margin: 0 auto;
+}
