@@ -7,3 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 User.find_or_create_by(email: 'dhmorris@gmail.com').update(password: 'simplechat123!', password_confirmation: 'simplechat123!')
+User.find_or_create_by(email: 'test@gmail.com').update(password: 'simplechat123!', password_confirmation: 'simplechat123!')
