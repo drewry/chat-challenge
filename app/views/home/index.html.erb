@@ -1,1 +1,16 @@
-Welcome
+<div id="messages">
+  <div class="message you"><span class="timestamps">2015-01-01 15:45</span><span class="email">dhmorris@gmail.com</span><p>This is a test message</p></div>
+  <div class="message"><span class="timestamps">2015-01-01 15:45</span><span class="email">test@gmail.com</span><p>This is a test message</p></div>
+  <div class="message"><span class="timestamps">2015-01-01 15:45</span><span class="email">test@gmail.com</span><p>This is a test message</p></div>
+  <div class="message you"><span class="timestamps">2015-01-01 15:45</span><span class="email">dhmorris@gmail.com</span><p>This is a test message</p></div>
+  <div class="message"><span class="timestamps">2015-01-01 15:45</span><span class="email">test@gmail.com</span><p>This is a test message</p></div>
+</div>
+
+<%= navbar position: :bottom do %>
+  <form class="message">
+    <div class="row">
+      <div class="col-xs-8 col-sm-9"><textarea class="form-control message"></textarea></div>
+      <div class="col-xs-4 col-sm-3"><button type="button" class="btn btn-large btn-primary submit"><i class="fa fa-paper-plane"></i> Submit</button></div>
+    </div>
+  </form>
+<% end %>

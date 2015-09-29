@@ -1,3 +1,45 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+form.message {
+  button.submit {
+    width: 100%;
+    height: 54px;
+    font-size: 20px;
+  }
+}
+
+#messages {
+  div.message {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 10% 10px 10px;
+
+    &.you {
+      background: #3499DA;
+      color: #fff;
+      margin: 10px 10px 10px 10%;
+    }
+
+    span.email {
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0.8;
+    }
+
+    span.timestamps {
+      font-style: italic;
+      font-size: 10px;
+      text-align: right;
+      float: right;
+      opacity: 0.8;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
