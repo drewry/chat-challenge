@@ -17,4 +17,5 @@
 //= require nprogress-turbolinks
 //= require twitter/bootstrap
 //= require sweet-alert
+//= require moment.min
 //= require_tree .

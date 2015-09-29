@@ -8,7 +8,7 @@ jQuery(function ($) {
       html += '<div class="message">';
     }
 
-    html += '<span class="timestamps">' + message.created_at + '</span>';
+    html += '<span class="timestamps">' + moment(message.created_at).fromNow() + '</span>';
     html += '<span class="email">' + message.user.email + '</span>';
     html += '<p>' + message.content + '</p>';
     html += '</div>';
